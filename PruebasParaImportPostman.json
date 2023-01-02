@@ -33,7 +33,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"model\": \"lsa-180\",\n    \"company\": \"Sony\"\n}",
+					"raw": "{\n    \"model\": \"lsa-180\",\n    \"company\": \"Sony desde J-unit\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -162,6 +162,50 @@
 						"api",
 						"laptops",
 						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RAILWAYS pedir Laptops",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ob-railwaysprueba-production.up.railway.app/api/laptops",
+					"protocol": "https",
+					"host": [
+						"ob-railwaysprueba-production",
+						"up",
+						"railway",
+						"app"
+					],
+					"path": [
+						"api",
+						"laptops"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RAILWAYS pedir Saludo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ob-railwaysprueba-production.up.railway.app/api/saludo",
+					"protocol": "https",
+					"host": [
+						"ob-railwaysprueba-production",
+						"up",
+						"railway",
+						"app"
+					],
+					"path": [
+						"api",
+						"saludo"
 					]
 				}
 			},
