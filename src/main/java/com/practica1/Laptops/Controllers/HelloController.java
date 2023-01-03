@@ -13,6 +13,12 @@ public class HelloController {
     /*  @Value("${app.varexample}")
         String example;
     */
+    @GetMapping("/api/saludar")
+    public String saluda(){
+        return "TE ESTOY SALUDANDO";
+    }
+
+
     @GetMapping("/api/saludo")
     public String saludar(){
 
